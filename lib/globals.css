@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply antialiased;
+}
+pre {
+  font-size: .625rem;
+  overflow-x: auto;
+}
+.text-xss {
+  font-size: .625rem;
+}
+.aces-wrap {
+  @apply px-4 sm:px-6;
+}
+.aces-geist {
+  @apply max-w-4xl mx-auto;
+}
+
+#aces-main {
+  /* background-color: rgb(247, 251, 252); */
+  background-color: rgb(252, 252, 250);
+}
+#aces-main.white {
+  background-color: rgb(255, 255, 255);
+}
+#aces-main.scrolled {
+  padding-top: 44px;
+}
+#aces-main.scrolled #aces-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-color: rgba(226, 232, 240, 1);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.075); /*, 0 1px 2px 0 rgba(0, 0, 0, 0.06);*/
+}
