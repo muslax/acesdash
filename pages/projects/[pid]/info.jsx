@@ -15,7 +15,7 @@ const InfoPage = () => {
 }
 
 InfoPage.suppressFirstRenderFlicker= true
-InfoPage.redirectUnAuthenticatedTo = ROUTES.Login
+// InfoPage.redirectUnAuthenticatedTo = ROUTES.Login
 InfoPage.getLayout = (page) => <AppLayout bgColor="bg-white">{page}</AppLayout>
 InfoPage.skeletonLoader = (
   <AppLayout isLoading>

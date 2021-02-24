@@ -50,7 +50,7 @@ const PersonaPage = () => {
 }
 
 PersonaPage.suppressFirstRenderFlicker= true
-PersonaPage.redirectUnAuthenticatedTo = ROUTES.Login
+// PersonaPage.redirectUnAuthenticatedTo = ROUTES.Login
 PersonaPage.getLayout = (page) => <AppLayout bgColor="bg-white">{page}</AppLayout>
 PersonaPage.skeletonLoader = (
   <AppLayout bgColor="bg-gray-200" isLoading>

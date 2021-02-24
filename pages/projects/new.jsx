@@ -16,7 +16,7 @@ const NewProjectPage = () => {
 }
 
 NewProjectPage.suppressFirstRenderFlicker= true
-NewProjectPage.redirectUnAuthenticatedTo = ROUTES.Login
+// NewProjectPage.redirectUnAuthenticatedTo = ROUTES.Login
 NewProjectPage.getLayout = (page) => <AppLayout bgColor="bg-white">{page}</AppLayout>
 NewProjectPage.skeletonLoader = (
   <AppLayout isLoading>

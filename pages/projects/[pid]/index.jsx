@@ -8,7 +8,7 @@ const OverviewPage = () => {
 }
 
 OverviewPage.suppressFirstRenderFlicker= true
-OverviewPage.redirectUnAuthenticatedTo = ROUTES.Login
+// OverviewPage.redirectUnAuthenticatedTo = ROUTES.Login
 OverviewPage.getLayout = (page) => <AppLayout bgColor="bg-white">{page}</AppLayout>
 OverviewPage.skeletonLoader = (
   <AppLayout bgColor="bg-gray-200" isLoading>

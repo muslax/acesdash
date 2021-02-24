@@ -15,7 +15,7 @@ const SchedulesPage = () => {
 }
 
 SchedulesPage.suppressFirstRenderFlicker= true
-SchedulesPage.redirectUnAuthenticatedTo = ROUTES.Login
+// SchedulesPage.redirectUnAuthenticatedTo = ROUTES.Login
 SchedulesPage.getLayout = (page) => <AppLayout bgColor="bg-white">{page}</AppLayout>
 SchedulesPage.skeletonLoader = (
   <AppLayout isLoading>
