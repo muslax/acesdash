@@ -13,7 +13,7 @@ const DashboardPage = () => {
 }
 
 DashboardPage.suppressFirstRenderFlicker= true
-DashboardPage.redirectUnAuthenticatedTo = ROUTES.Login
+// DashboardPage.redirectUnAuthenticatedTo = ROUTES.Login
 DashboardPage.getLayout = (page) => <AppLayout bgColor="bg-white">{page}</AppLayout>
 DashboardPage.skeletonLoader = (
   <AppLayout isLoading>
