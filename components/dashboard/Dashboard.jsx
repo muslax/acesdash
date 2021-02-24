@@ -117,7 +117,7 @@ export default function Dashboard() {
           <div className="w-full md:flex-grow bg-yellow-100s">
             <div className="border-0 md:border-l pl-0 md:pl-8">
               <h3 className="text-xs text-center md:text-left text-white font-medium tracking-wide uppercase mb-4">
-                <span className="inline-block bg-yellow-400 rounded-full px-3 py-1 border-b-2s border-yellow-400s">
+                <span className="inline-block bg-purple-400 rounded-full px-3 py-1 border-b-2s border-yellow-400s">
                   {LABEL.LATEST_PROJECT}
                 </span>
               </h3>
