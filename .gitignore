@@ -1,3 +1,7 @@
+# Dev
+/tmp
+/tmpdev
+
 # Logs
 logs
 *.log
