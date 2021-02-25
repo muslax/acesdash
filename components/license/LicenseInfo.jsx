@@ -1,3 +1,4 @@
+import { ACESSVGRed } from "@layouts/AcesLogo"
 import { ACESRed } from "@layouts/AcesLogo"
 import { useLicense } from "@lib/hooks"
 import useUser from "@lib/hooks/useUser"
@@ -24,7 +25,7 @@ export default function LicenseInfo() {
     <div className="max-w-xl text-sm rounded border border-purple-300 px-6 py-6">
       <div className="flex items-center text-2xl">
         <div className="flex flex-row border-r border-red-300 pr-4 mr-4">
-          <ACESRed />
+          <ACESSVGRed className="h-8" />
         </div>
         <span className="text-red-500">ACES Corporate License</span>
       </div>

@@ -113,12 +113,6 @@ function AppNav({ children, ...props }) {
         <div className="aces-geist py-3">
           <div className="flex items-center">
             <div className="flex pr-3 mr-3 border-r border-gray-300">
-              <div className="realtive flex flex-row text-gray-100 hover:text-white text-center text-sm font-bold leading-none">
-                <div className="flex bg-purple-300 rounded-fulls h-6 w-6 pt-1 z-50">a</div>
-                <div className="flex bg-pink-600 rounded-fulls h-6 w-6 pt-1 -ml-2 z-40">c</div>
-                <div className="flex bg-indigo-500 rounded-full h-6 w-6 pt-1 -ml-2 z-30">e</div>
-                <div className="flex bg-purple-500 rounded-full bg-opacity-75 h-6 w-6 pt-1 -ml-2 z-20">s</div>
-              </div>
               <Link href={ROUTES.Home}>
                 <a className="inline-block">
                   {/* <ACESPurple /> */}
