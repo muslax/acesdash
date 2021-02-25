@@ -9,6 +9,7 @@ import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 import { useEffect, useState } from "react"
 import { useLicense, useProjectSimpleInfo } from "@lib/hooks"
 import { SVGProject } from "@components/SVGIcon"
+import { ACESSVGPurple } from "./AcesLogo"
 
 const LICENSE_NAV = [
   {text: MENU.ACES_HOME, href: ROUTES.Dashboard},
@@ -111,16 +112,23 @@ function AppNav({ children, ...props }) {
       <div id="aces-top" className="aces-wrap bg-white">
         <div className="aces-geist py-3">
           <div className="flex items-center">
-            <div className="pr-3 mr-3 border-r border-gray-300">
+            <div className="flex pr-3 mr-3 border-r border-gray-300">
+              <div className="flex flex-row bg-purple-900 text-gray-100 hover:text-white text-center text-sm font-bold leading-none">
+                <div className="rounded-full bg-purple-700 h-6 w-6 pt-1 z-50">a</div>
+                <div className="rounded-full bg-purple-600 h-6 w-6 pt-1 -ml-2 z-40">c</div>
+                <div className="rounded-full bg-purple-500 h-6 w-6 pt-1 -ml-2 z-30">e</div>
+                <div className="rounded-full bg-purple-500 bg-opacity-75 h-6 w-6 pt-1 -ml-2 z-20">s</div>
+              </div>
               <Link href={ROUTES.Home}>
-                <a className="inline-flex">
+                <a className="inline-block">
                   {/* <ACESPurple /> */}
-                  <div className="flex flex-row text-gray-100 hover:text-white text-center text-sm font-bold leading-none">
+                  {/* <div className="flex flex-row text-gray-100 hover:text-white text-center text-sm font-bold leading-none">
                     <div className="rounded-full bg-purple-700 h-6 w-6 pt-1 z-50">a</div>
                     <div className="rounded-full bg-purple-600 h-6 w-6 pt-1 -ml-2 z-40">c</div>
                     <div className="rounded-full bg-purple-500 h-6 w-6 pt-1 -ml-2 z-30">e</div>
                     <div className="rounded-full bg-purple-500 bg-opacity-75 h-6 w-6 pt-1 -ml-2 z-20">s</div>
-                  </div>
+                  </div> */}
+                  <ACESSVGPurple className="h-6" />
                 </a>
               </Link>
             </div>

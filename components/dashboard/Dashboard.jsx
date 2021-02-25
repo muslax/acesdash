@@ -45,7 +45,7 @@ export default function Dashboard() {
               <table className="w-full text-sm bg-indigo-200 bg-opacity-25">
                 <tbody>
                   <tr className="bg-white">
-                    <td colspan="3" className="px-2 pt-1 pb-2 whitespace-nowrap text-xs text-indigo-500 uppercase font-mono">
+                    <td colSpan="3" className="px-2 pt-1 pb-2 whitespace-nowrap text-xs text-indigo-500 uppercase font-mono">
                       {LABEL.LICENSE_ID}&nbsp;{license._id}
                     </td>
                   </tr>
@@ -53,7 +53,7 @@ export default function Dashboard() {
                     <td className="w-20 px-3 py-2 text-xs text-indigo-500 uppercase">
                       {LABEL.LICENSE_TYPE}
                     </td>
-                    <td colspan="2" className="px-3 py-2 border-l border-white uppercase">
+                    <td colSpan="2" className="px-3 py-2 border-l border-white uppercase">
                       {license.type}
                     </td>
                   </tr>
@@ -61,7 +61,7 @@ export default function Dashboard() {
                     <td className="px-3 py-2 text-xs text-indigo-500 uppercase">
                       {LABEL.LICENSE_OWNER}
                     </td>
-                    <td colspan="2" className="px-3 py-2 border-l border-white whitespace-nowrap">
+                    <td colSpan="2" className="px-3 py-2 border-l border-white whitespace-nowrap">
                       {license.licenseName}
                     </td>
                   </tr>
@@ -69,7 +69,7 @@ export default function Dashboard() {
                     <td className="px-3 py-2 text-xs text-indigo-500 uppercase">
                       {LABEL.LICENSE_CONTACT}
                     </td>
-                    <td colspan="2" className="px-3 py-2 border-l border-white">
+                    <td colSpan="2" className="px-3 py-2 border-l border-white">
                       {license.contactName}
                     </td>
                   </tr>
@@ -77,12 +77,12 @@ export default function Dashboard() {
                     <td className="px-3 py-2 text-xs text-indigo-500 uppercase">
                       {LABEL.LICENSE_SINCE}
                     </td>
-                    <td colspan="2" className="px-3 py-2 border-l border-white">
+                    <td colSpan="2" className="px-3 py-2 border-l border-white">
                       {license.publishDate.substr(0, 10)}
                     </td>
                   </tr>
                   <tr className="border-b border-white">
-                    <td colspan="2" className="px-3 py-2 text-xs text-indigo-500 uppercase">
+                    <td colSpan="2" className="px-3 py-2 text-xs text-indigo-500 uppercase">
                       {LABEL.LICENSE_NUM_OF_USERS}
                     </td>
                     <td className="px-3 py-2 border-l border-white">
@@ -90,7 +90,7 @@ export default function Dashboard() {
                     </td>
                   </tr>
                   <tr className="border-b border-white">
-                    <td colspan="2" className="px-3 py-2 text-xs text-indigo-500 uppercase">
+                    <td colSpan="2" className="px-3 py-2 text-xs text-indigo-500 uppercase">
                       {LABEL.LICENSE_NUM_OF_PROJECTS}
                     </td>
                     <td className="w-10 px-3 py-2 border-l border-white">
@@ -98,7 +98,7 @@ export default function Dashboard() {
                     </td>
                   </tr>
                   <tr className="border-b-2s border-white">
-                    <td colspan="2" className="px-3 py-2 text-xs text-indigo-500 uppercase">
+                    <td colSpan="2" className="px-3 py-2 text-xs text-indigo-500 uppercase">
                       {LABEL.LICENSE_NUM_OF_CLIENTS}
                     </td>
                     <td className="px-3 py-2 border-l border-white">
