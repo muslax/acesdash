@@ -15,7 +15,7 @@ const GuestsPage = () => {
 }
 
 GuestsPage.suppressFirstRenderFlicker= true
-// GuestsPage.redirectUnAuthenticatedTo = ROUTES.Login
+GuestsPage.redirectUnAuthenticatedTo = ROUTES.Login
 GuestsPage.getLayout = (page) => <AppLayout bgColor="bg-white">{page}</AppLayout>
 GuestsPage.skeletonLoader = (
   <AppLayout isLoading>

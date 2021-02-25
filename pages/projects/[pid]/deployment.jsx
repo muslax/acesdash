@@ -15,7 +15,7 @@ const DeploymentPage = () => {
 }
 
 DeploymentPage.suppressFirstRenderFlicker= true
-// DeploymentPage.redirectUnAuthenticatedTo = ROUTES.Login
+DeploymentPage.redirectUnAuthenticatedTo = ROUTES.Login
 DeploymentPage.getLayout = (page) => <AppLayout bgColor="bg-white">{page}</AppLayout>
 DeploymentPage.skeletonLoader = (
   <AppLayout isLoading>

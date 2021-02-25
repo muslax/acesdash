@@ -33,6 +33,7 @@ const LoginPage = () => {
   )
 }
 
+LoginPage.suppressFirstRenderFlicker= false
 LoginPage.getLayout = (page) => <WebLayout>{page}</WebLayout>
 LoginPage.redirectAuthenticatedTo = ROUTES.Dashboard
 

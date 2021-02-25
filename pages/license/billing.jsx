@@ -12,7 +12,7 @@ const BillingPage = () => {
 }
 
 BillingPage.suppressFirstRenderFlicker= true
-// BillingPage.redirectUnAuthenticatedTo = ROUTES.Login
+BillingPage.redirectUnAuthenticatedTo = ROUTES.Login
 BillingPage.getLayout = (page) => <AppLayout bgColor="bg-white">{page}</AppLayout>
 BillingPage.skeletonLoader = (
   <AppLayout isLoading>
